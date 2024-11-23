@@ -1,0 +1,67 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+background-color: rgb(246, 246, 246);
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+}
+#grand-div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: black;
+    text-align: center;
+    font-size: 44px;
+    margin-top: 20px;
+    display: block;
+}
+#parent-div{
+    margin-top: 50px;
+    width: 500px;
+    height: 50vh;
+    border: 4px solid black;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);  
+    overflow-y: scroll;
+    padding: 5px;
+    position: relative;
+    scrollbar-width: thin; /* Makes the scrollbar thinner */
+    scrollbar-color: rgba(0, 0, 0, 0.3) transparent; 
+    box-shadow: 10px 10px 20px   rgb(150, 150, 141);
+
+}
+
+input{
+    height: 50px;
+    width: 70%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 15%;
+}
+button{
+    width: 20%;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 40%;
+
+}
+#newText{
+color:rgb(0, 0, 0) ;
+padding: 10px;
+background-color: rgba(31, 208, 182, 0.36);
+word-break: break-all;
+display: flex;
+}
+#delete-btn{
+background-color: aquamarine;
+}
